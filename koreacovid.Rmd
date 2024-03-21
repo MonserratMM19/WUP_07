@@ -33,6 +33,7 @@ Based on the problem description, it appears that the problem can be solved as a
 
 ## Graphical results - use ggplot commands to do this  
 
+
 ```{r}
 dd2 <- kRdata %>% group_by(result,sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
@@ -48,9 +49,7 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-  
-
-
+From the previously shown two graphs, it shows that woman are getting Covid than men. However, more men die from Covid than woman. 
 
 
 

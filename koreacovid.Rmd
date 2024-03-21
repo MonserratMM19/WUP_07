@@ -52,10 +52,13 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 From the previously shown two graphs, it shows that woman are getting Covid than men. However, more men die from Covid than woman. 
 
 
-
-  
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Inferential results 
 

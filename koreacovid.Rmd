@@ -74,3 +74,4 @@ After running these inferential test, we found that P values is 0.0009, which is
 
 ## Conclusions
 
+Looking at this problem, we have determined that it's a categorical-categorical problem, as we are comparing two categorical Data types which are sex (Male-Female) and the status of the patient which is either alive or dead. After showing the graphical data that compares males and females contracting and dying from COVID-19. We concluded was further confirmed by the numerical data results and the inferential test, as the P value was far lower than the standard 0.05. therefore, we can conclude that the death rates of patients are not independent of their sex. 
